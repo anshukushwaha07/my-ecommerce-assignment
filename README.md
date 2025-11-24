@@ -76,7 +76,7 @@
 
 | Mobile View | Tablet View |
 | :---: | :---: |
-| ![Mobile UI 1](/frontend/screenshot/mobile1.png) | ![Tablet UI 1](/frontend/screenshot/tab1.png) |
+| ![Mobile UI 1](/frontend/screenshot/Mobile1.png) | ![Tablet UI 1](/frontend/screenshot/tab1.png) |
 | ![Mobile UI 2](/frontend/screenshot/mobile2.png) | ![Tablet UI 2](/frontend/screenshot/tab2.png) |
 | ![Mobile UI 3](/frontend/screenshot/mobile3.png) | |
 
