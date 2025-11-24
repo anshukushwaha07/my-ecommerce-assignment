@@ -33,11 +33,12 @@ const HeroCarousel = () => {
       {/* CUSTOM DESKTOP ARROWS */}
       <button
         className="
-          custom-prev hidden md:flex
-          absolute left-3 top-1/2 -translate-y-1/2
-          w-12 h-12 rounded-full bg-white shadow-lg
-          items-center justify-center text-lg font-bold
-          hover:scale-105 transition z-50
+        custom-prev hidden md:flex
+        absolute left-3 top-1/2 -translate-y-1/2
+        w-12 h-12 rounded-full bg-white shadow-lg
+        items-center justify-center text-lg font-bold
+        hover:scale-105 transition
+        z-30
         "
       >
         ‹
@@ -45,11 +46,12 @@ const HeroCarousel = () => {
 
       <button
         className="
-          custom-next hidden md:flex
-          absolute right-3 top-1/2 -translate-y-1/2
-          w-12 h-12 rounded-full bg-white shadow-lg
-          items-center justify-center text-lg font-bold
-          hover:scale-105 transition z-50
+        custom-next hidden md:flex
+        absolute right-3 top-1/2 -translate-y-1/2
+        w-12 h-12 rounded-full bg-white shadow-lg
+        items-center justify-center text-lg font-bold
+        hover:scale-105 transition
+         z-30
         "
       >
         ›
