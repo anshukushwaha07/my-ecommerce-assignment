@@ -99,6 +99,21 @@ cd your-repo-name
 cd backend
 npm install
 ```
+### 3️⃣ Frontend Setup (React + Vite)
+
+Open a **new terminal** (keep the backend terminal running), navigate to the frontend folder, and install dependencies:
+
+```bash
+cd frontend
+npm install
+```
+
+Start the Frontend:
+
+```Bash
+
+npm run dev
+```
 
 ### **Configuration**
 Create a `.env` file in the `/backend` directory:
