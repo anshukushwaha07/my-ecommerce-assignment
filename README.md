@@ -65,8 +65,8 @@
 ### 🖥️ Desktop View
 > A fully responsive product dashboard with filtering and search.
 
-![Desktop View](/frontend/screenshots/desktop1.png)
-![Desktop View](/frontend/screenshots/destop2.png)
+![Desktop View](/frontend/screenshot/desktop1.png)
+![Desktop View](/frontend/screenshot/destop2.png)
 
 
 ---
@@ -76,9 +76,9 @@
 
 | Mobile View | Tablet View |
 | :---: | :---: |
-| ![Mobile UI 1](/frontend/screenshots/mobile1.png) | ![Tablet UI 1](/frontend/screenshots/tab1.png) |
-| ![Mobile UI 2](/frontend/screenshots/mobile2.png) | ![Tablet UI 2](/frontend/screenshots/tab2.png) |
-| ![Mobile UI 3](/frontend/screenshots/mobile3.png) | |
+| ![Mobile UI 1](/frontend/screenshot/mobile1.png) | ![Tablet UI 1](/frontend/screenshot/tab1.png) |
+| ![Mobile UI 2](/frontend/screenshot/mobile2.png) | ![Tablet UI 2](/frontend/screenshot/tab2.png) |
+| ![Mobile UI 3](/frontend/screenshot/mobile3.png) | |
 
 ## 🧰 Installation & Setup Guide
 
