@@ -60,6 +60,26 @@
 - **Middleware:** CORS
 
 
+## 📸 Screenshots
+
+### 🖥️ Desktop View
+> A fully responsive product dashboard with filtering and search.
+
+![Desktop View](./frontend/screenshots/desktop1.png)
+![Desktop View](./frontend/screenshots/destop2.png)
+
+
+---
+
+### 📱 Mobile & Tablet View
+> Optimized for smaller screens with a collapsible sidebar and touch-friendly grid.
+
+| Mobile View | Tablet View |
+| :---: | :---: |
+| ![Mobile UI 1](./frontend/screenshots/mobile1.png) | ![Tablet UI 1](./frontend/screenshots/tab1.png) |
+| ![Mobile UI 2](./frontend/screenshots/mobile2.png) | ![Tablet UI 2](./frontend/screenshots/tab2.png) |
+| ![Mobile UI 3](./frontend/screenshots/mobile3.png) | |
+
 ## 🧰 Installation & Setup Guide
 
 Follow these steps to run the project locally.
