@@ -139,13 +139,62 @@ The server will run at: http://localhost:8080/api/v1
 | `GET` | `/api/v1/categories` | Returns a list of available categories |
 
 
-## 🚀 Deployment
+## 🚀 Deployment Guide
 
-> 🚧 **Status:** Deployment in progress. Live links coming soon!
+### 🌐 FRONTEND → Vercel
 
-The application is currently designed for local use. Future deployment targets:
-* **Frontend:** Vercel / Netlify
-* **Backend:** Render / Railway
+**1. Push entire project to GitHub**
+Your repository must contain both folders:
+```text
+backend/
+frontend/
+```
+
+**2. Go to Vercel → New Project**
+
+**3. Select your GitHub repository**
+
+**4. Choose `frontend` folder as the root directory**
+
+**5. Configure Project Settings:**
+
+| Setting | Value |
+| :--- | :--- |
+| **Framework Preset** | Vite |
+| **Build Command** | `npm run build` |
+| **Output Directory** | `dist` |
+
+**6. Add Environment Variables:**
+```bash
+VITE_API_URL=[https://your-backend.onrender.com/api/v1](https://your-backend.onrender.com/api/v1)
+```
+
+**7. Deploy 🚀**
+Your site becomes live instantly.
+
+---
+
+### 🔥 BACKEND → Render
+
+**1. Go to [Render.com](https://render.com) → Create New → Web Service**
+
+**2. Select your GitHub repository**
+
+**3. Choose `backend` folder as root directory**
+
+**4. Configure Build & Start:**
+
+| Setting | Value |
+| :--- | :--- |
+| **Runtime** | Node |
+| **Build Command** | `npm install` |
+| **Start Command** | `node src/server.js` |
+
+**5. Add Environment Variables:**
+```bash
+PORT=8080
+MONGODB_URI=your-mongodb-atlas-uri
+```
 
 ### 📝 Contributing
 Contributions are welcome! Feel free to fork this repo and submit a Pull Request.
